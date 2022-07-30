@@ -1,0 +1,33 @@
+class shiva{
+	
+	String name;
+	int number;
+	int id ;
+	double salory;
+
+	 void insret( String n, int num, int i , double s){
+	 	name = n;
+	 	number= num;
+	 	id= i;
+	 	salory=s;	
+	
+	 }
+	 
+
+
+void display( ){
+	
+	 System.out.println( name+" "+ number +" "+id+" "+ salory);
+}
+}
+class shiva1{
+public static void main ( String args[]){
+	
+	shiva s1= new shiva();
+	s1.name = " shiva ";
+	s1.number = 6788;
+	s1.id = 67;
+	s1. salory= 627.7;
+	s1.display();
+}
+}
